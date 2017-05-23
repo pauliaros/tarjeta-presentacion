@@ -1,0 +1,79 @@
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.foto{
+	background-image: url(../img/pauli.jpg);
+	width: 400px;
+	height: 400px;
+
+	position: relative;
+	
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #2E2E2D;
+    border-left: 300px solid transparent;
+    position: absolute;
+    left: 108px;
+    bottom: 200px;
+}
+
+.rectangulo{
+    width: 320px;
+    height: 400px;
+    background: #2E2E2D;
+    position: absolute;
+    left: 408px;
+    bottom:  200px;
+}
+
+.logoiso{
+	background-image: url(../img/Laboratoria_IsotipoCodeAcademy.png);
+	background-repeat: no-repeat;
+    position: absolute;
+	width: 80px;
+	height: 80px;    
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.logolab{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	right: 70px;
+    top: 30px;
+
+}
+
+.nombre {
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    color: whitesmoke;
+    font-size: 35px;
+
+}
+
+.ocupacion {
+    position: absolute;
+    color: #FFBF00;
+    top: 120px;
+    left: 95px;
+    font-size: 17px;
+}
+
+
+.datos{
+    position: absolute;
+    top: 210px;
+    left: 350px;
+    color: whitesmoke;	
+    font-size: 18px;
+    line-height: 20px;
+}
